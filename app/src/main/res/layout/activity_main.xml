@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
+    android:id="@+id/activity_main"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp">
@@ -13,11 +13,18 @@
         android:hint="Ingrese el valor"
         android:inputType="numberDecimal" />
 
+    <Spinner
+        android:id="@+id/spinnerTipoGrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
     <Button
         android:id="@+id/btnConvertir"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Convertir" />
+        android:text="Convertir"
+        android:layout_marginTop="8dp" />
 
     <TextView
         android:id="@+id/tvResultado"
